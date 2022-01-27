@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "jan-23.html",
+    "currentPage": "meet-the-team.html",
     "theme": {
       "name": "estatem5",
       "title": "EstateM5",
@@ -45,9 +45,9 @@
         "url": "https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "imageResize": true,
+    "imageResize": false,
     "favicon": false,
-    "mbrsiteDomain": "e3vjvascop",
+    "mbrsiteDomain": "k8fc4lpay5",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
