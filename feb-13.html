@@ -238,6 +238,88 @@
     </div>
 </section>
 
+<section data-bs-version="5.1" class="article3 cid-sXru2HmY5Y" id="article3-4i">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>App Development</strong> Update</h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">As per our Gantt chart, the mobile application development has begun and is on track to be ready for testing by February 25th. The app architecture and screen layouts have been developed using the React-Native framework. The image below illustrates the general layout of the screen navigation that has been implemented thus far. The image also contains a brief description of the different navigators that are used in the application layout.</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image1 cid-sXru7EVPuW" id="image1-4j">
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <div class="image-wrapper">
+                    <img src="assets/images/app-image1-2136x645.png" alt="Mobirise">
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-7"><strong>Screen Navigation Layout</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="article3 cid-sXruj3Rsoj" id="article3-4k">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">The Sign-in and Sign-up screens use a stack navigator to switch between the two screens. Despite its low performance compared to native implementation, the stack navigator is easy to customize and has the ability to quickly switch between a small number of screens. As the user is expected to spend a limited amount of time on these two screens, it was deemed acceptable to sacrifice the performance for the quick development.<br><br>
+<div>Once the user is logged into the app, the switch navigator immediately navigates the user to the RideCreate screen. This abrupt screen navigation with the switch navigator gives the user access to the 3+1 screens using the now available, bottom navigation bar. The bottom navigation bar contains icons that can be used to navigate between the RideCreate, RideHistory, and Account screens.</div><br><div>
+</div><div>The RideCreate screen gives the user access to RideForm and the RideVisual sub-screens as illustrated in the diagram below. This enables the user to record their journey and visualize the warnings provided by the Falcon sensor suite.</div><br><div>
+</div><div>Whenever the user is interested in reviewing their ride history, they can navigate to the RideHistory screen using the bottom navigation bar. Here, they have access to a list of all the rides they have recorded to date. Upon selecting a historic ride, a RideDetail screen appears on top of the current screen. Now, the user can review the length of this trip, the average speed, location, and other details related to the trip.</div><br><div>
+</div><div>Once the user has completed their task, they can simply close the app or go through the Account screen and log themselves self out. Simply closing the app enables it to automatically log in the same user when the application is launched. If the user wishes to log in using a different account or lend their device to another user, they can safely log themselves out in the Account screen.</div></h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image1 cid-sXruvMhHY7" id="image1-4l">
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <div class="image-wrapper">
+                    <img src="assets/images/app-image2-2136x1100.png" alt="Mobirise">
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-7"><strong>Modular App Navigation</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="article3 cid-sXruwlxJJu" id="article3-4m">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">The application architecture has been designed to give all screens access to an authentication step when requesting data from the cloud storage. Whenever, a user requests their data by navigating to a screen, an API request is made using the AuthProvider that verifies the user using a JSON Web Token (JWT).<br><br>
+<div>All screens also have access to a LocationProvider that allows the screens to access the mobile device’s GPS location. This is especially useful when the user is recording their trip in the RideCreate screen as it allows the trip data to be geotagged.</div><br><div>
+</div><div>Due to the layout of the screens and the providers, the mobile app development has become very modular. This has enabled the team to easily develop on one of the screens without interfering the progress of others. In the upcoming weeks, the team will be adding another provider in the current architecture layout for Bluetooth communication with the Falcon sensor suite. Along side this, the team will also be improving upon the warning and ride visualization that is embedded in the RideVisual screen.</div></h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
 <section data-bs-version="5.1" class="header4 cid-sXnBte4HM8" id="header4-4b">
 
     
